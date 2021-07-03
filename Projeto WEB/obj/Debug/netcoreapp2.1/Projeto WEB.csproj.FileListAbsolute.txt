@@ -7,6 +7,7 @@ C:\Users\dell\OneDrive\Área de Trabalho\Projeto WEB\Projeto WEB\Projeto WEB\bin
 C:\Users\dell\OneDrive\Área de Trabalho\Projeto WEB\Projeto WEB\Projeto WEB\bin\Debug\netcoreapp2.1\Projeto WEB.pdb
 C:\Users\dell\OneDrive\Área de Trabalho\Projeto WEB\Projeto WEB\Projeto WEB\bin\Debug\netcoreapp2.1\Projeto WEB.Views.dll
 C:\Users\dell\OneDrive\Área de Trabalho\Projeto WEB\Projeto WEB\Projeto WEB\bin\Debug\netcoreapp2.1\Projeto WEB.Views.pdb
+C:\Users\dell\OneDrive\Área de Trabalho\Projeto WEB\Projeto WEB\Projeto WEB\obj\Debug\netcoreapp2.1\Projeto WEB.csproj.AssemblyReference.cache
 C:\Users\dell\OneDrive\Área de Trabalho\Projeto WEB\Projeto WEB\Projeto WEB\obj\Debug\netcoreapp2.1\Projeto WEB.AssemblyInfoInputs.cache
 C:\Users\dell\OneDrive\Área de Trabalho\Projeto WEB\Projeto WEB\Projeto WEB\obj\Debug\netcoreapp2.1\Projeto WEB.AssemblyInfo.cs
 C:\Users\dell\OneDrive\Área de Trabalho\Projeto WEB\Projeto WEB\Projeto WEB\obj\Debug\netcoreapp2.1\Projeto WEB.csproj.CoreCompileInputs.cache
@@ -37,4 +38,3 @@ C:\Users\dell\OneDrive\Área de Trabalho\Projeto WEB\Projeto WEB\Projeto WEB\obj
 C:\Users\dell\OneDrive\Área de Trabalho\Projeto WEB\Projeto WEB\Projeto WEB\obj\Debug\netcoreapp2.1\Projeto WEB.pdb
 C:\Users\dell\OneDrive\Área de Trabalho\Projeto WEB\Projeto WEB\Projeto WEB\obj\Debug\netcoreapp2.1\Projeto WEB.genruntimeconfig.cache
 C:\Users\dell\OneDrive\Área de Trabalho\Projeto WEB\Projeto WEB\Projeto WEB\obj\Debug\netcoreapp2.1\Projeto WEB.csproj.CopyComplete
-C:\Users\dell\OneDrive\Área de Trabalho\Projeto WEB\Projeto WEB\Projeto WEB\obj\Debug\netcoreapp2.1\Projeto WEB.csproj.AssemblyReference.cache
