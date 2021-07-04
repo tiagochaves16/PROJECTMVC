@@ -11,6 +11,7 @@ using System.Linq;
 using System.Threading.Tasks;
 using Microsoft.EntityFrameworkCore;
 using Projeto_WEB.Data;
+using Projeto_WEB.Services;
 
 namespace Projeto_WEB
 {
@@ -41,6 +42,7 @@ namespace Projeto_WEB
                     builder.MigrationsAssembly("Projeto WEB")));
 
             services.AddScoped<SeedingService>();
+            services.AddScoped<SellerService>();
 
         }
 
