@@ -39,3 +39,4 @@ C:\Users\dell\OneDrive\Área de Trabalho\Projeto WEB\Projeto WEB\Projeto WEB\obj
 C:\Users\dell\OneDrive\Área de Trabalho\Projeto WEB\Projeto WEB\Projeto WEB\obj\Debug\netcoreapp2.1\Projeto WEB.genruntimeconfig.cache
 C:\Users\dell\OneDrive\Área de Trabalho\Projeto WEB\Projeto WEB\Projeto WEB\obj\Debug\netcoreapp2.1\Projeto WEB.csproj.CopyComplete
 C:\Users\dell\OneDrive\Área de Trabalho\Projeto WEB\Projeto WEB\Projeto WEB\obj\Debug\netcoreapp2.1\Razor\Views\Sellers\Index.cshtml.g.cs
+C:\Users\dell\OneDrive\Área de Trabalho\Projeto WEB\Projeto WEB\Projeto WEB\obj\Debug\netcoreapp2.1\Razor\Views\Sellers\Create.cshtml.g.cs
