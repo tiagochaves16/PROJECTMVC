@@ -9,8 +9,8 @@ using Projeto_WEB.Data;
 namespace Projeto_WEB.Migrations
 {
     [DbContext(typeof(Projeto_WEBContext))]
-    [Migration("20210703182918_OtherEntities")]
-    partial class OtherEntities
+    [Migration("20210706223359_Initial2")]
+    partial class Initial2
     {
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
@@ -56,7 +56,7 @@ namespace Projeto_WEB.Migrations
                     b.Property<int>("Id")
                         .ValueGeneratedOnAdd();
 
-                    b.Property<int?>("DepartmentId");
+                    b.Property<int>("DepartmentId");
 
                     b.Property<string>("Email");
 
@@ -84,7 +84,8 @@ namespace Projeto_WEB.Migrations
                 {
                     b.HasOne("Projeto_WEB.Models.Department", "Department")
                         .WithMany("Sellers")
-                        .HasForeignKey("DepartmentId");
+                        .HasForeignKey("DepartmentId")
+                        .OnDelete(DeleteBehavior.Cascade);
                 });
 #pragma warning restore 612, 618
         }

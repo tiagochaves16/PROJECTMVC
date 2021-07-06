@@ -9,8 +9,8 @@ using Projeto_WEB.Data;
 namespace Projeto_WEB.Migrations
 {
     [DbContext(typeof(Projeto_WEBContext))]
-    [Migration("20210704214301_DepartmentForeignKey")]
-    partial class DepartmentForeignKey
+    [Migration("20210706015508_Initial")]
+    partial class Initial
     {
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {

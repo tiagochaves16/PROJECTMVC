@@ -9,7 +9,7 @@
 
 
 <p>
-    <a asp-action="Create" class="btn btn-default" >Create New</a>
+    <a asp-action="Create" class="btn btn-default">Create New</a>
 </p>
 
 <table class="table table-striped table-hover">
@@ -32,29 +32,30 @@
     </thead>
 
     <tbody>
-        @foreach(var item in Model)
-            {
-        <tr>
-            <td>
-                @Html.DisplayFor(model => item.Nome)
-            </td>
-            <td>
-                @Html.DisplayFor(model => item.Email)
-            </td>
-            <td>
-                @Html.DisplayFor(model => item.birthDay)
-            </td>
-            <td>
-                @Html.DisplayFor(model => item.baseSalary)
-            </td>
-            <th>
-                <a asp-action="Edit" asp-route-id="@item.Id">Edit</a>
-                <a asp-action="Details" asp-route-id="@item.Id">Details</a>
-                <a asp-action="Delete" asp-route-id="@item.Id">Delete</a>
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td>
+                    @Html.DisplayFor(model => item.Nome)
+                </td>
+                <td>
+                    @Html.DisplayFor(model => item.Email)
+                </td>
+                <td>
+                    @Html.DisplayFor(model => item.birthDay)
+                </td>
+                <td>
+                    @Html.DisplayFor(model => item.baseSalary)
+                </td>
+                <th>
+                    <a asp-action="Edit" asp-route-id="@item.Id">Edit</a>
+                    <a asp-action="Details" asp-route-id="@item.Id">Details</a>
+                    <a asp-action="Delete" asp-route-id="@item.Id">Delete</a>
 
-            </th>
-        </tr>
-            }
+                </th>
+            </tr>
+
+        }
     </tbody>
 
 </table>
