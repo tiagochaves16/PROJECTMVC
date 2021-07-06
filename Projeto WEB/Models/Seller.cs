@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.ComponentModel.DataAnnotations;
 using System.Linq;
 
 namespace Projeto_WEB.Models
@@ -8,8 +9,16 @@ namespace Projeto_WEB.Models
     {
         public int Id { get; set; }
         public string Nome { get; set; }
+        [DataType(DataType.EmailAddress)]
         public string Email { get; set; }
+
+        [Display (Name = "Birth Day")]
+        [DataType(DataType.Date)]
+        [DisplayFormat(DataFormatString = "{0:dd/MM/yyyy}")]
         public DateTime birthDay { get; set; }
+
+        [Display(Name = "Base Salary")]
+        [DisplayFormat(DataFormatString ="{0:F2}")]
         public double baseSalary { get; set; }
         public Department Department { get; set; }
         public int DepartmentId { get; set; }
