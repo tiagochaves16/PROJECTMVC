@@ -58,6 +58,5 @@ namespace Projeto_WEB.Services
                 .GroupBy(x => x.Seller.Department)
                 .ToListAsync();
         }
-
     }
 }

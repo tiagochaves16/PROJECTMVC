@@ -27,8 +27,8 @@ namespace Projeto_WEB.Migrations
                 {
                     Id = table.Column<int>(nullable: false)
                         .Annotation("MySql:ValueGenerationStrategy", MySqlValueGenerationStrategy.IdentityColumn),
-                    Nome = table.Column<string>(nullable: true),
-                    Email = table.Column<string>(nullable: true),
+                    Nome = table.Column<string>(maxLength: 60, nullable: false),
+                    Email = table.Column<string>(nullable: false),
                     birthDay = table.Column<DateTime>(nullable: false),
                     baseSalary = table.Column<double>(nullable: false),
                     DepartmentId = table.Column<int>(nullable: false)

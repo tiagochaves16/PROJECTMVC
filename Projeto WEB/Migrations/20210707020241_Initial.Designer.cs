@@ -9,8 +9,8 @@ using Projeto_WEB.Data;
 namespace Projeto_WEB.Migrations
 {
     [DbContext(typeof(Projeto_WEBContext))]
-    [Migration("20210706223359_Initial2")]
-    partial class Initial2
+    [Migration("20210707020241_Initial")]
+    partial class Initial
     {
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
@@ -58,9 +58,12 @@ namespace Projeto_WEB.Migrations
 
                     b.Property<int>("DepartmentId");
 
-                    b.Property<string>("Email");
+                    b.Property<string>("Email")
+                        .IsRequired();
 
-                    b.Property<string>("Nome");
+                    b.Property<string>("Nome")
+                        .IsRequired()
+                        .HasMaxLength(60);
 
                     b.Property<double>("baseSalary");
 
